@@ -1,0 +1,71 @@
+body{
+    background-color: #212836;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.center-content-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-box{
+    background-color: #1B212C;
+    padding: 0px;
+    border-radius: 10px;
+    width: 420px;
+    height: 400px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#login-box>section{
+    
+}
+
+#login-box>h1{
+    color: white;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+
+#login-box>section>input{
+    background-color: rgb(238, 238, 238);
+    height: 35px;
+    width: 260px;
+    border-radius: 8px;
+    font-size: large;
+}
+
+#login-box>section>h3{
+    margin-top: 12px;
+    margin-bottom: 8px;
+    color: white;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#submit-button{
+    margin-top: 15px;
+    height: 60px;
+    width: 190px;
+    border-radius: 8px;
+    background-color: #212836;
+    color: white;
+    font-family: "Trebuchet MS", sans-serif;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+    transition: ease-in-out, 0.5s;
+}
+
+#submit-button:hover{
+    scale: 1.08;
+}
+
+#submit-button:active{
+    background-color: black;
+}
+
